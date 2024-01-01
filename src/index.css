@@ -1,6 +1,7 @@
 :root {
-  max-width: 96%;
-  margin: auto;
+  margin: 0;
+  padding: 0;
+ 
   font-size: 20px;
   font-family: 'Inter', sans-serif;
 
@@ -12,7 +13,7 @@
   --color-three: #f6f6f6;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */

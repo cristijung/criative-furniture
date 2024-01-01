@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import styles from './TemplateUm.module.scss';
 
 import MenuBar from "../molecules/menuBar/MenuBar";
 import Home from "../pages/home/home";
@@ -10,6 +11,7 @@ import Error from "../pages/error";
 function TemplateUm() {
     return(
         <>
+        <div className={styles.corpo}>
         <BrowserRouter>
             <MenuBar/>
             <Routes>
@@ -20,6 +22,7 @@ function TemplateUm() {
                 <Route path='*' element={<Error/>}/>
             </Routes>
         </BrowserRouter>
+      </div>
         </>
     )
 }
