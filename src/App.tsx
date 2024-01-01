@@ -1,10 +1,12 @@
-import React from 'react';
+
 import './App.scss';
+import TemplateUm from './components/templates/TemplateUm';
 
 function App() {
   return (
-    <>
-    <h2>Criative Furniture</h2>
+    <>     
+    <TemplateUm/>  
+    <p>Criativie Furniture</p> 
     </>
   );
 }
