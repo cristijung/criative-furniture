@@ -1,16 +1,18 @@
 import ItemMenu from "../../atoms/itemMenu/ItemMenu";
+import UrlMenu from "../../atoms/urlMenu/UrlMenu";
+import styles from './MenuBar.module.scss';
 
 
 export default function MenuBar() {
     return(
         <>
-        <div>
-            <ItemMenu to='/'>Home</ItemMenu>            
+        <section className={styles.section}>        
+            <ItemMenu to='/'>| Home</ItemMenu>            
             <ItemMenu to='/gallery'>Gallery</ItemMenu>            
             <ItemMenu to='/planned'>Planned Environment</ItemMenu>            
             <ItemMenu to='/about'>About Us</ItemMenu>            
-        </div>
-        
+            <UrlMenu to='/'>criativefurniture.net</UrlMenu>     
+        </section>
         </>
     )
 }

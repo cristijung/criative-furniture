@@ -2,7 +2,7 @@
 export default function Home() {
     return(
         <>
-        <p>Home</p>
+        <p>Esta é Home</p>
         </>
     )
 }

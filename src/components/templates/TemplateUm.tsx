@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import MenuBar from "../molecules/menuBar/ManuBar";
+import MenuBar from "../molecules/menuBar/MenuBar";
 import Home from "../pages/home/home";
 import Gallery from "../pages/gallery/gallery";
 import Planned from "../pages/planned/planned";
