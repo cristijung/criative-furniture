@@ -4,6 +4,7 @@ import './App.scss';
 function App() {
   return (
     <>
+    <h2>Criative Furniture</h2>
     </>
   );
 }
