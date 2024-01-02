@@ -11,6 +11,7 @@ import Error from "../pages/error";
 function TemplateUm() {
     return(
         <>
+        
         <div className={styles.corpo}>
         <BrowserRouter>
             <MenuBar/>
@@ -23,6 +24,7 @@ function TemplateUm() {
             </Routes>
         </BrowserRouter>
       </div>
+      
         </>
     )
 }

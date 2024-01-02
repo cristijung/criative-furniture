@@ -6,12 +6,14 @@ import styles from './MenuBar.module.scss';
 export default function MenuBar() {
     return(
         <>
-        <section className={styles.section}>        
+        <section className="content">
+        <div className={styles.section}>        
             <ItemMenu to='/'>| Home</ItemMenu>            
             <ItemMenu to='/gallery'>Gallery</ItemMenu>            
             <ItemMenu to='/planned'>Planned Environment</ItemMenu>            
             <ItemMenu to='/about'>About Us</ItemMenu>            
             <UrlMenu to='/'>criativefurniture.net</UrlMenu>     
+        </div>
         </section>
         </>
     )
