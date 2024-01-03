@@ -1,20 +1,27 @@
 
 .container {
     display: flex;
+    padding-left: 8%;
+    align-items: end;
     justify-content: space-between;
     align-items: center;
     max-width: 100%;
+    margin-top: 6%;
+    
 }
 
-.text-container {
+.textContainer {
     flex: 1;
-    padding: 20px;
+    padding-right: 10px;
+    
 }
 
-.img-container {
+.imgContainer {
     flex: 1;
     max-width: 100%;
     overflow: hidden;
+    margin-left: 8%;
+    
 }
 
 .foto {
@@ -24,7 +31,7 @@
 }
 
 .criative {
-    padding-left: 8%;
+    padding-left: 6%;
     padding-top: 10%;
     font-size: 10em;
     font-weight: 500;
@@ -33,7 +40,7 @@
 }
 
 .interior {
-    padding-left: 8%;
+    padding-left: 6%;
     line-height: 80px;    
     font-size: 10em;
     font-weight: 500;
