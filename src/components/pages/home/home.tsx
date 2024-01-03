@@ -2,7 +2,6 @@ import styles from "./Home.module.scss";
 import imagem from '../../../assets/tela-home.png';
 
 
-
 export default function Home() {
   return (
     <>
@@ -15,8 +14,9 @@ export default function Home() {
         <div className={styles.imgContainer}> 
           <img src={imagem} alt='imagem'/>         
         </div>
-      </div>
-    </section>
+        <div className={styles.teste}>Teste</div>
+      </div>          
+    </section>    
     </>
   );
 }

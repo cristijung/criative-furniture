@@ -24,11 +24,17 @@
     
 }
 
+.extraContent {
+    flex: 1; /* Ocupa a mesma largura que textContainer e imgContainer */
+    margin-top: 20px; /* Ajuste conforme necessário para o espaçamento desejado */
+}
+
 .foto {
     width: 100%;
     height: auto;
     display: block;
 }
+
 
 .criative {
     padding-left: 6%;
@@ -46,4 +52,10 @@
     font-weight: 500;
     color: var(--color-one-text);
     letter-spacing: 24px;
+}
+
+.additionalContent {
+    /* Estilize conforme necessário para a linha adicional */
+    font-size: 1.5em;
+    color: #333;
 }
